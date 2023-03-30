@@ -6,7 +6,7 @@
 ## Array Methods
 
 -   [x] For loop
--   [ ] forEach
+-   [x] forEach
 -   [ ] map
 -   [ ] filter
 -   [ ] find

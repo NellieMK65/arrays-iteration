@@ -15,3 +15,9 @@ for (let i = 0; i < scores.length; i++) {
 	const score = scores[i];
 	console.log('Accesing elements using for', score);
 }
+
+// 2 forEach
+scores.forEach((score, index) => {
+	console.log(index);
+	console.log(score * 2);
+});
