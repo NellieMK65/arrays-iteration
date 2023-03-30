@@ -11,4 +11,4 @@
 -   [x] filter
 -   [x] find
 -   [x] indexOf
--   [ ] reduce
+-   [x] reduce

@@ -88,3 +88,12 @@ console.log(student);
 
 // 6. indexOf - finds the index of a given element
 console.log(scores.indexOf(45));
+
+// 7. reduce - aggregates the values in an array(reduce the array to a single value)
+const sum = scores.reduce((previousValue, currentValue) => {
+	console.log(previousValue);
+	console.log(currentValue);
+	return previousValue + currentValue;
+});
+
+console.log(sum);
