@@ -5,18 +5,22 @@ const students = [
 	{
 		name: 'Paul',
 		score: 37,
+		age: 27,
 	},
 	{
 		name: 'Ryan',
 		score: 38,
+		age: 21,
 	},
 	{
 		name: 'Geofrey',
 		score: 31,
+		age: 26,
 	},
 	{
 		name: 'Sandra',
 		score: 56,
+		age: 19,
 	},
 ];
 
@@ -76,3 +80,8 @@ const filteredStudents = students.filter((student) => {
 });
 
 console.log(filteredStudents);
+
+// 5. find - returns the first element that meets the given condition
+const student = students.find((student) => student.age === 26);
+
+console.log(student);

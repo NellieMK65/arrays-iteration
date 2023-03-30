@@ -9,6 +9,6 @@
 -   [x] forEach
 -   [x] map
 -   [x] filter
--   [ ] find
+-   [x] find
 -   [ ] indexOf
 -   [ ] reduce
