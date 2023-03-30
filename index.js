@@ -85,3 +85,6 @@ console.log(filteredStudents);
 const student = students.find((student) => student.age === 26);
 
 console.log(student);
+
+// 6. indexOf - finds the index of a given element
+console.log(scores.indexOf(45));

@@ -10,5 +10,5 @@
 -   [x] map
 -   [x] filter
 -   [x] find
--   [ ] indexOf
+-   [x] indexOf
 -   [ ] reduce
