@@ -57,3 +57,22 @@ const mappedStudents = students.map((student) => {
 });
 
 console.log(mappedStudents);
+
+// 4. filter - returns an array that meets a given condition
+console.log(scores);
+const filteredScores = scores.filter((score) => {
+	if (score > 90) {
+		return score;
+	}
+});
+
+console.log(students);
+// OR operator ||
+// AND operator &&
+const filteredStudents = students.filter((student) => {
+	if ((student.name === 'Ryan' && student.score > 50) || student.age > 20) {
+		return student;
+	}
+});
+
+console.log(filteredStudents);

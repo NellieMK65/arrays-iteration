@@ -8,7 +8,7 @@
 -   [x] For loop
 -   [x] forEach
 -   [x] map
--   [ ] filter
+-   [x] filter
 -   [ ] find
 -   [ ] indexOf
 -   [ ] reduce
